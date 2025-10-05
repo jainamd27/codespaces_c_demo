@@ -7,12 +7,12 @@ void main()
     char op;
     float c;
 
-    printf("Enter number 1:\n");
-    scanf("%d", &a);
-    printf("Enter number 2:\n");
-    scanf("%d", &b);
-    printf("select the calculation operator:\n");
-    scanf(" %c", &op);
+    printf("Enter number 1:");
+    scanf("\n%d", &a);
+    printf("Enter number 2:");
+    scanf("\n%d", &b);
+    printf("select the calculation operator:");
+    scanf("\n%c", &op);
 
     if(op=='+')
     {
